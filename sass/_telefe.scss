@@ -1,0 +1,19 @@
+.telefe {
+
+
+	ul { 
+
+
+		li {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			display: inline-block;  /*acomoda los elementos en una linea pero mantiene las propiedades de bloque*/
+
+			&:first-child { background: $azul;}
+			&:nth-child(2) { background: $verde;}
+			&:last-child { background: $rojo;}
+
+		}
+	}
+}

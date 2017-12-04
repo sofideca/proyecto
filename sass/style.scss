@@ -1,0 +1,81 @@
+@import "reset";
+@import "variables";
+@import "telefe";
+
+header {
+	text-align: center;
+	padding: 100px 0;
+	background: yellow;
+
+	h1 {
+		text-transform: uppercase;
+		font-family: $tipo-tilulos;
+		color: $color1;
+	}
+
+	h2{
+		background: blue;
+		color: white;
+	}
+
+	p {
+		font-style: italic;
+
+		a{
+			color: green;
+			background: white;
+			
+			&:hover{
+				background: pink;
+			}
+
+			
+		}
+
+		&.destacado {
+			font-weight: bold;
+			color: red;
+		}
+	}
+}
+ 
+
+.listado{
+	.cursos{
+		li{
+			font-style: italic;
+
+			
+			&:nth-child(odd){
+				background: blue;
+			}
+
+			&:nth-child(even){
+				background: green;
+			}
+		}
+	}
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
